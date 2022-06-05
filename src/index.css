@@ -1,13 +1,87 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-bar {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.globe-img {
+  margin-right: 10px;
+}
+
+.nav-bar>p {
+  text-transform: capitalize;
+  align-self: center;
+  font-size: 14.46px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+}
+
+.information {
+  padding: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  font-size: 10.24px;
+}
+
+.location-image {
+  border-radius: 5px;
+}
+
+.location-icon {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 5px;
+}
+
+.location-name {
+  color: #2B283A;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 5px;
+}
+
+.location-link {
+  text-decoration-color: #918E9B;
+}
+
+.name {
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  color: #2B283A;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.journey-duration {
+  font-size: 10.24px;
+  font-weight: 700;
+  color: #2B283A;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 14.24px;
+  color: #2B283A;
+  margin-top: 10px;
+  max-width: 400px;
 }
